@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Groovin Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Groovin
+  * Template URL: https://bootstrapmade.com/groovin-free-bootstrap-theme/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="assets/img/SWIFTAID2.png" alt="SWIFTAID Logo" style="height: 70px; margin-right: 10px;">
+        <h1 class="sitename">SWIFTAID</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services"> Services</a></li>
+          <li><a href="#ambulanceservice">Ambulance Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="login.php" >Login</a></li>
+        <li><a href="signup.php">Sign Up</a></li>
+      </ul>
+      </nav>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+  
+      <a class="btn-getstarted" href="emergency.php">Emergency Booking</a>
+     
+        
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class=" hero section dark-background">
+  
+
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">  <!-- for slider-->
+
+        <div class="carousel-item active">
+          <img src="assets/assets/img//template/Groovin/hero-carousel/ambulance2.jpg" alt="">
+          <div class="carousel-container">
+            <h2>Welcome to SWIFTAID-Ambulance Booking System </h2>
+            <!-- <p>Fast and reliable ambulance booking at your fingertips – book now for immediate assistance.</p> -->
+            <p>Here to provide fast, reliable, and professional emergency medical services at your fingertips, whenever you need them most.</p>
+            <a href="emergency.php" class="btn-get-started">Emergency Booking</a>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <div class="carousel-item">
+          <img src="assets/assets/img//template/Groovin/hero-carousel/ai1.png" alt="">
+          <div class="carousel-container">
+            <h2>Schedule your ambulance service in advance for peace of mind.</h2>
+            <p>Prebook your ambulance for a scheduled time or request assistance for future needs – ensuring reliable and professional medical transport, tailored to your convenience.</p>
+            <a href="login.php" class="btn-get-started">PreBook Now</a>
+          </div>
+        </div>
+        <!-- End Carousel Item -->
+
+        <div class="carousel-item">
+          <img src="assets/assets/img//template/Groovin/hero-carousel/ambulance.jpg" alt="">
+          <div class="carousel-container">
+            <h2>Ensure compassionate care at home with our palliative care services.</h2>
+            <p>Schedule a visit from our professional caregivers who provide dedicated support, and if needed, seamless hospital transport for any complications.</p>
+            <a href="login.php" class="btn-get-started">Book palliative Care</a>
+          </div>
+        </div>
+        <!-- End Carousel Item -->
+
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+        <ol class="carousel-indicators"></ol>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <style>
+        /* Reducing the space between the 'About' section and 'Stats' section */
+        #about {
+          margin-bottom: 20px; /* Reduce space after About section */
+        }
+      
+        #stats {
+          margin-top: 0; /* Remove top margin to reduce gap from About section */
+          padding-top: 40px; /* Optionally adjust padding if needed */
+        }
+      
+        /* You can also control padding and margin within the section itself */
+        .section {
+          padding-top: 50px;
+          padding-bottom: 50px;
+        }
+      </style>
+      
+      <section id="about" class="about section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>About SwiftAid</h2>
+          <p>
+
+            SwiftAid revolutionizes emergency medical transportation by connecting individuals directly with ambulance drivers, eliminating delays and ensuring timely assistance when it matters most. Whether for emergencies or scheduled transport, we prioritize quick, reliable service to connect you to the care you need.</p>
+          </div><!-- End Section Title -->
+      
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="about-item">
+                <h4>Direct Connection to Ambulance Drivers</h4>
+                <p>With SwiftAid, you can connect directly to the ambulance driver in real-time, reducing wait times and ensuring that help arrives quickly. This direct communication streamlines the process, providing immediate assistance in emergency situations.</p>
+              </div>
+            </div><!-- End About Item -->
+      
+            <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="about-item">
+                <h4>Reliable and Timely Service</h4>
+                <p>SwiftAid ensures timely arrival through our network of professional ambulance services. Our platform is designed to offer the fastest response possible, helping people get the medical attention they need in the shortest amount of time.</p>
+              </div>
+            </div><!-- End About Item -->
+          </div>
+        </div><!-- End About Content -->
+      </section>
+      
+      <style>
+        .about .section-title h2 {
+          font-size: 36px;
+          color: #006609;
+          font-weight: 700;
+          text-align: center;
+          margin-bottom: 25px;
+        }
+      
+        .about .section-title p {
+          font-size: 18px;
+          color: #707d6c;
+          text-align: center;
+          margin-bottom: 40px;
+          line-height: 1.8;
+          max-width: 800px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      
+        .about-item {
+          background-color: #ffffff;
+          border: 1px solid #068a4a;
+          border-radius: 10px;
+          padding: 30px;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+          transition: all 0.3s ease;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 100%;
+        }
+      
+        .about-item:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+        }
+      
+        .about-item h4 {
+          font-size: 24px;
+          color: #006609;
+          font-weight: 600;
+          margin-bottom: 15px;
+        }
+      
+        .about-item p {
+          font-size: 16px;
+          color: #555;
+          line-height: 1.6;
+          margin-bottom: 0;
+        }
+      
+        .about-item p:last-child {
+          margin-bottom: 0;
+        }
+      
+        @media (max-width: 767px) {
+          .about-item {
+            padding: 20px;
+          }
+      
+          .about-item h4 {
+            font-size: 20px;
+          }
+      
+          .about-item p {
+            font-size: 14px;
+          }
+        }
+      </style>
+      <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Services</h2>
+        <p>Providing swift, reliable, and compassionate emergency response services to save lives.</p>
+      </div><!-- End Section Title -->
+    
+      <div class="container">
+    
+        <div class="row gy-4">
+    
+          <!-- Emergency Ambulance Service -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-truck-front-fill"></i> <!-- Updated Icon -->
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Emergency Ambulance</h3>
+              </a>
+              <p>Quick and reliable emergency ambulance services available at your fingertips, anytime, anywhere.</p>
+            </div>
+          </div><!-- End Service Item -->
+    
+          <!-- Advanced Life Support -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-heart-pulse"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Advanced Life Support</h3>
+              </a>
+              <p>Equipped with life-saving technology and trained professionals to handle critical emergencies.</p>
+            </div>
+          </div><!-- End Service Item -->
+    
+          <!-- Choosing Ambulance Type -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-list-task"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Ambulance Selection</h3>
+              </a>
+              <p>Choose from a variety of ambulance types such as Basic, Advanced, or Specialized, based on your needs.</p>
+            </div>
+          </div><!-- End Service Item -->
+    
+          <!-- Storing Patient Medical Details -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-file-medical"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Medical Record Assistance</h3>
+              </a>
+              <p>Patient details are stored securely, ensuring better assistance and faster service during future requests.</p>
+            </div>
+          </div><!-- End Service Item -->
+    
+          <!-- Feedback -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-dots"></i> <!-- Updated for Feedback -->
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Feedback</h3>
+              </a>
+              <p>We value your feedback to improve our services and ensure the best experience for you.</p>
+            </div>
+          </div><!-- End Service Item -->
+    
+          <!-- Specialized Medical Care -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-hospital"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Specialized Medical Care</h3>
+              </a>
+              <p>Expert transport for critical care, neonatal, and bariatric patients, ensuring their safety and comfort.</p>
+            </div>
+          </div><!-- End Service Item -->
+    
+        </div>
+    
+      </div>
+    
+    </section>
+    
+    
+    <!-- /Services Section -->
+
+    <!--Different Ambulance Types-->
+    <section id="ambulanceservice" class="why-us section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Different Ambulance Types</h2>
+        <p>Explore our wide range of specialized ambulance services, tailored to provide the best care in emergencies.</p>
+      </div><!-- End Section Title -->
+    
+      <div class="container">
+    
+        <div class="row gy-4">
+    
+          <!-- Card Item 1: Basic Ambulance -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <span>01</span>
+              <h4><a href="" class="stretched-link">Basic Ambulance Service</a></h4>
+              <p>For non-critical emergencies, offering a safe and comfortable ride to the nearest healthcare facility.</p>
+            </div>
+          </div><!-- End Card Item -->
+    
+          <!-- Card Item 2: Advanced Life Support (ALS) Ambulance -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <span>02</span>
+              <h4><a href="" class="stretched-link">Advanced Life Support (ALS)</a></h4>
+              <p>Equipped with trained paramedics and advanced medical equipment for critical care during transportation.</p>
+            </div>
+          </div><!-- End Card Item -->
+    
+          <!-- Card Item 3: Neonatal Ambulance -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <span>03</span>
+              <h4><a href="" class="stretched-link">Neonatal Ambulance</a></h4>
+              <p>Specialized ambulances for transporting newborns and infants, ensuring optimal medical care during transit.</p>
+            </div>
+          </div><!-- End Card Item -->
+    
+          <!-- Card Item 4: Bariatric Ambulance -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <span>04</span>
+              <h4><a href="" class="stretched-link">Bariatric Ambulance</a></h4>
+              <p>Designed for overweight patients, offering more space and additional support for a safe, comfortable ride.</p>
+            </div>
+          </div><!-- End Card Item -->
+    
+          
+    
+          <!-- Card Item 5: Critical Care Ambulance -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="card-item">
+              <span>05</span>
+              <h4><a href="" class="stretched-link">Critical Care Ambulance</a></h4>
+              <p>Fully equipped for life-threatening emergencies, offering intensive care during transport with specialized medical staff.</p>
+            </div>
+          </div><!-- End Card Item -->
+    
+          <!-- Card Item : Mortuary Ambulance -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="700">
+            <div class="card-item">
+              <span>06</span>
+              <h4><a href="" class="stretched-link">Mortuary Ambulance</a></h4>
+              <p>Providing respectful and dignified transport for deceased individuals to funeral homes or morgues.</p>
+            </div>
+          </div><!-- End Card Item -->
+    
+        </div>
+    
+      </div>
+    
+    </section>
+    <!-- /Different Ambulance Types -->
+
+    
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <!-- <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/team/ambulance1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Ambulance</h4>
+                  
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/team/ambulance6.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Ambulance</h4>
+                  <!-- <span>Product Manager</span> -->
+                  <!-- <div class="social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/team/ambulance5.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Ambulance</h4>
+                  <!-- <span>CTO</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="assets/img/team/ambulance4.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Ambulance</h4>
+                  <!-- <span>Accountant</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center info-item-borders">
+              <i class="bi bi-telephone"></i>
+              <h3>Call Us</h3>
+              <p>9587463214</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center ">
+              <i class="bi bi-envelope"></i>
+              <h3>Email Us</h3>
+              <p>swiftaid@gmail.com</p>
+            </div>
+          </div><!-- End Info Item -->
+            
+          <div class="col-lg-4">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center info-item-borders">
+              <i class="bi bi-instagram"></i>
+              <h3>Follow Us</h3>
+              <p>@swiftaid_official</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Groovin</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>SWIFTAID</p>
+            <p>New Delhi</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>9587463214</span></p>
+            <p><strong>Email:</strong> <span>swiftaid@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#ambulanceservice">Ambulance Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li>Emergency Ambulance</li>
+            <li>Advanced Life Support</li>
+            <li>Ambulance Selection</li>
+            <li>Prebooking</li>
+            <li>Feedback</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4>Our Newsletter</h4>
+          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+          <form action="forms/newsletter.php" method="post" class="php-email-form">
+            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Groovin</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
